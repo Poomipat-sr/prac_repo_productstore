@@ -12,7 +12,7 @@ const PORT = process.env.PORT || 5000
 
 app.use(express.json());
 
-app.use("/api", productRoute)
+app.use("/api/products", productRoute)
 
 
 app.listen(PORT, () => {
